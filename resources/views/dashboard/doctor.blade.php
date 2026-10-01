@@ -1,0 +1,14 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2>Panel del Doctor</h2>
+    </x-slot>
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                <h3 class="text-lg font-semibold">Bienvenido(a), {{ auth()->user()->name }}</h3>
+                <p class="mt-2">Desde aquí podrás consultar tus atenciones y registrar servicios.</p>
+            </div>
+        </div>
+    </div>
+</x-app-layout>
